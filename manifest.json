@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Examplar but caterpillars are imposters",
+  "version": "0.0.0.1",
+  "description": "Tired of seeing so many uncaught caterpillars? Replace them with imposters to give yourself motivation to catch them all.",
+  "web_accessible_resources": [
+    "images/*.png"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "css": [
+        "extension-styles.css"
+      ],
+      "js": [
+        "extension-content.js"
+      ],
+      "matches": [
+        "https://pyret.cs.brown.edu/assignment/*"
+      ]
+    }
+  ]
+}
