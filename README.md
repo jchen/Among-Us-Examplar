@@ -1,4 +1,6 @@
 # Among-Us-Examplar
+![Demo image](https://raw.githubusercontent.com/jchen/Among-Us-Examplar/main/example-image.png)
+
 🐛 Examplar but caterpillars are imposters. 
 
 ## Install
